@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware("auth")->get('/', function () {
-    return view('welcome');
-});
+Route::middleware("auth")->get('/', [App\Http\Controllers\HomeController::class, 'index']);
 
 Route::middleware("auth")->resource('categories', App\Http\Controllers\CategoriesController::class);
 Route::middleware("auth")->resource('products', App\Http\Controllers\ProductsController::class);

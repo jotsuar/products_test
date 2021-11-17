@@ -10,7 +10,6 @@
         "ecreeth/laravel-resource-view": "dev-master",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "ibex/crud-generator": "^1.3",
         "laravel/framework": "^8.65",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
